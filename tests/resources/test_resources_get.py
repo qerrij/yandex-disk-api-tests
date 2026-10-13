@@ -1,14 +1,3 @@
-"""
-GET-эндпоинты раздела /v1/disk/resources.
-
-Покрываемые эндпоинты:
-  1. GET /v1/disk/resources                  — метаинформация о ресурсе
-  2. GET /v1/disk/resources/download         — ссылка на скачивание файла
-  3. GET /v1/disk/resources/files            — плоский список всех файлов
-  4. GET /v1/disk/resources/last-uploaded    — последние загруженные файлы
-  5. GET /v1/disk/resources/public           — список опубликованных ресурсов
-  6. GET /v1/disk/resources/upload           — ссылка для загрузки файла
-"""
 import time
 
 import pytest

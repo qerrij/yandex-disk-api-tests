@@ -1,9 +1,3 @@
-"""
-DELETE-эндпоинт раздела /v1/disk/resources.
-
-Покрываемый эндпоинт:
-  DELETE /v1/disk/resources — удаление файла или папки
-"""
 import pytest
 
 from config import BASE_URL

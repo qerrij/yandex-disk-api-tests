@@ -1,12 +1,3 @@
-"""
-DELETE-эндпоинт раздела /v1/disk/trash/resources.
-
-Покрываемый эндпоинт:
-  DELETE /v1/disk/trash/resources — удаление ресурса из Корзины
-
-Сценарии полной очистки Корзины (без path или с path=/) в тестах
-не покрываются: они разрушительны для данных реального пользователя.
-"""
 import pytest
 
 from config import BASE_URL

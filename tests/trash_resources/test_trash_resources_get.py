@@ -1,12 +1,3 @@
-"""
-GET-эндпоинт раздела /v1/disk/trash/resources.
-
-Покрываемый эндпоинт:
-  GET /v1/disk/trash/resources — метаинформация о ресурсе в Корзине
-      или список содержимого Корзины
-
-Пути указываются в формате trash:/..., который возвращается самим API.
-"""
 import pytest
 
 from config import BASE_URL

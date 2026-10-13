@@ -1,12 +1,3 @@
-"""
-GET-эндпоинт раздела /v1/disk/operations/{operation_id}.
-
-Покрываемый эндпоинт:
-  GET /v1/disk/operations/{operation_id} — статус асинхронной операции
-
-Операции запускаются через реальные async-эндпоинты
-(например, POST /resources/copy непустой папки).
-"""
 import time
 
 import pytest

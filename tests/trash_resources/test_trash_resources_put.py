@@ -1,9 +1,3 @@
-"""
-PUT-эндпоинт раздела /v1/disk/trash/resources.
-
-Покрываемый эндпоинт:
-  PUT /v1/disk/trash/resources/restore — восстановление ресурса из Корзины
-"""
 import uuid
 
 import pytest

@@ -1,11 +1,3 @@
-"""
-PUT-эндпоинты раздела /v1/disk/resources.
-
-Покрываемые эндпоинты:
-  1. PUT /v1/disk/resources           — создание папки
-  2. PUT /v1/disk/resources/publish   — публикация ресурса
-  3. PUT /v1/disk/resources/unpublish — отмена публикации ресурса
-"""
 import pytest
 
 from config import BASE_URL

@@ -1,13 +1,3 @@
-"""
-GET-эндпоинты раздела /v1/disk/public/resources.
-
-Покрываемые эндпоинты:
-  1. GET /v1/disk/public/resources           — метаинформация о публичном ресурсе
-  2. GET /v1/disk/public/resources/download  — ссылка на скачивание публичного ресурса
-
-Эндпоинты публичного раздела доступны без OAuth-токена: доступ
-осуществляется по public_key или публичной ссылке.
-"""
 import time
 
 import requests

@@ -1,11 +1,3 @@
-"""
-POST-эндпоинты раздела /v1/disk/resources.
-
-Покрываемые эндпоинты:
-  1. POST /v1/disk/resources/copy    — копирование файла или папки
-  2. POST /v1/disk/resources/move    — перемещение файла или папки
-  3. POST /v1/disk/resources/upload  — сохранение файла из интернета на Диск
-"""
 import pytest
 import requests
 
